@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{ 
+    color: #FFF3A5;
+    font-weight: bold;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid rgb(179, 171, 142);
+    outline: none;
+}
+button{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: unset;
+    cursor: pointer;
+}
+.msg{
+    border: 2px solid rgb(206, 135, 36);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;*
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+.return-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.return-button:hover {
+  background-color: #276b9e;
+  color: #fff;
+}
